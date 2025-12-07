@@ -22,25 +22,6 @@ class GraphDatabaseDriver:
         with self._driver.session(database=database_name) as session:
             self._last_result_details = session.run(query)
             return self._last_result_details.data()
-        
+
     def get_last_result_details(self):
         return self._last_result_details.to_eager_result()
-
-if __name__ == "__main__":
-    with GraphDatabaseDriver() as driver:
-        results = driver.execute_query("""
-            MATCH (p:Player)-[:SHARES]->(l:Level)
-            RETURN p.username AS username, l.name AS level_name
-            """
-        )
-
-        # Loop through results and do something with them
-        for x in results:
-            print(x)  # obtain record as dict
-
-        # Summary information
-        records, summary, keys = driver.get_last_result_details()
-        print("The query `{query}` returned {records_count} records in {time} ms.".format(
-            query=summary.query, records_count=len(records),
-            time=summary.result_available_after
-        ))

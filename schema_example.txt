@@ -1,16 +1,42 @@
 Node properties:
-- **Player**
-- accountId: INTEGER
-- username: STRING Example: "Nicki1202"
-- **Level**
-- id: INTEGER
-- name: STRING Example: "OuterSpace"
-- **Comment**
-- id: INTEGER
-- content: STRING Example: "GG! Nice level:)"
-Relationship properties:
+- **Hero**
+  - name: STRING Example: "Anti-Mage"
+  - baseHealth: INTEGER
+  - baseMana: INTEGER
+  - moveSpeed: INTEGER
+  - legs: INTEGER
+  - attackRange: INTEGER
+- **Ability**
+  - name: STRING Example: "Mana Break"
+  - description: STRING
+  - manaCost: INTEGER
+  - cooldown: FLOAT
+- **Item**
+  - name: STRING Example: "Blink Dagger"
+  - cost: INTEGER
+  - lore: STRING
+- **Facet**
+  - name: STRING Example: "High Tides"
+  - description: STRING
+- **Attribute**
+  - name: STRING Example: "Strength", "Universal"
+- **Role**
+  - name: STRING Example: "Carry", "Support", "Nuker", "Disabler", "Jungler", "Durable", "Escape", "Pusher", "Initiator"
+- **AttackType**
+  - name: STRING Example: "Melee", "Ranged"
+- **DamageType**
+  - name: STRING Example: "Magical", "Pure", "Physical"
+- **Behavior**
+  - name: STRING Example: "Passive", "Unit Target", "Channeled"
 
-The relationships:
-(:Player)-[:SHARES]->(:Level)
-(:Player)-[:SUBMITS]->(:Comment)
-(:Level)-[:HAS]->(:Comment)
+Relationships:
+(:Hero)-[:HAS_ABILITY]->(:Ability)
+(:Hero)-[:HAS_ULTIMATE]->(:Ability)
+(:Hero)-[:HAS_FACET]->(:Facet)
+(:Hero)-[:HAS_PRIMARY_ATTR]->(:Attribute)
+(:Hero)-[:HAS_ROLE]->(:Role)
+(:Hero)-[:HAS_ATTACK_TYPE]->(:AttackType)
+(:Ability)-[:DEALS_DAMAGE_TYPE]->(:DamageType)
+(:Ability)-[:HAS_BEHAVIOR]->(:Behavior)
+(:Item)-[:HAS_BEHAVIOR]->(:Behavior)
+(:Item)-[:REQUIRES_COMPONENT]->(:Item)

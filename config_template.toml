@@ -1,5 +1,10 @@
 [neo4j]
-database_uri = "..."  # Open Inspect menu from an instance, then copy the connection URI.
-database_name = "..."  # Usually neo4j. Access your instance, then check what database is used.
-username = "..."
-password = "..."
+database_uri = "bolt://localhost:7687"
+database_name = "neo4j"
+username = "neo4j"
+password = "password"
+
+[llm]
+base_url = "https://freeinference.org/v1"
+model = "llama-4-scout"
+api_key = "hyi-Wbe3gUyhUeZg7OwFR4UkCMOGeQ7KUhH9zqrTgOX8EeE"

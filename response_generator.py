@@ -1,4 +1,5 @@
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from openai import OpenAI
+from config import load_config
 
 PROMPT_TEMPLATE = """
 <SCHEMA>
@@ -17,13 +18,14 @@ Answer:
 
 class ResponseGenerator:
     def __init__(self, schema: str):
-        model_name = "Qwen/Qwen2.5-0.5B-Instruct"
-        self._model = AutoModelForCausalLM.from_pretrained(
-            model_name,
-            dtype="auto",
-            device_map="auto"
+        config = load_config()
+        llm_config = config.get_llm_config()
+
+        self._client = OpenAI(
+            base_url=llm_config.get("base_url"),
+            api_key=llm_config.get("api_key")
         )
-        self._tokenizer = AutoTokenizer.from_pretrained(model_name)
+        self._model_name = llm_config.get("model", "llama-4-scout")
         self._schema = schema
 
     def __call__(self, question: str, query: str, query_result_str: str):
@@ -37,49 +39,11 @@ class ResponseGenerator:
             {"role": "system", "content": "Answer the user question using the provided Neo4j context. Only response the query result in natural language."},
             {"role": "user", "content": prompt}
         ]
-        text = self._tokenizer.apply_chat_template(
-            messages,
-            tokenize=False,
-            add_generation_prompt=True
-        )
-        model_inputs = (
-            self._tokenizer([text], return_tensors="pt")
-            .to(self._model.device)
-        )
-        generated_ids = self._model.generate(
-            **model_inputs,
-            max_new_tokens=512
-        )
-        generated_ids = [
-            output_ids[len(input_ids):]
-            for input_ids, output_ids in zip(model_inputs.input_ids,
-                                             generated_ids)
-        ]
-        response = self._tokenizer.batch_decode(
-            generated_ids,
-            skip_special_tokens=True
-        )
-        return response[0]
 
-if __name__ == "__main__":
-    with open("schema_example.txt") as fp:
-        schema = fp.read().strip()
+        response = self._client.chat.completions.create(
+            model=self._model_name,
+            messages=messages,
+            max_tokens=512
+        )
 
-    print("Preparing pipeline ....")
-    generator = ResponseGenerator(schema)
-
-    question = "List all players and their levels."
-    query = """
-MATCH (p:Player)-[:SHARES]->(l:Level)
-RETURN p.username AS username, l.name AS level_name
-    """.strip()
-    query_result_str = """
-{'username': 'Galactic71', 'level_name': 'Lanterns Preview'}
-{'username': 'Demonmaster197', 'level_name': 'fun adventure'}
-{'username': 'Demonmaster197', 'level_name': 'moonlight'}
-{'username': 'usnsrDEMON', 'level_name': 'memories'}
-    """.strip()
-
-    print("Generating ...")
-    response = generator(question, query, query_result_str)
-    print(response)
+        return response.choices[0].message.content
