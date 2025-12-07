@@ -1,0 +1,18 @@
+services:
+  neo4j:
+    image: neo4j:2025.10.1
+    container_name: neo4j
+    restart: always
+    ports:
+      - "7474:7474"  # HTTP
+      - "7687:7687"  # Bolt
+    volumes:
+      - neo4jdata:/data
+    environment:
+      - NEO4J_AUTH=neo4j/password 
+      - NEO4J_PLUGINS=["apoc"]
+
+volumes:
+  neo4jdata:
+    driver: local
+

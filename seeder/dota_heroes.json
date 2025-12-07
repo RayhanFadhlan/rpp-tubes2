@@ -1,0 +1,2410 @@
+[
+    {
+        "name": "Anti-Mage",
+        "main_attribute": "Agility",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Pusher"
+        ],
+        "skills": [
+            "Mana Break",
+            "Blink",
+            "Counterspell",
+            "Counterspell Ally",
+            "Persecutor",
+            "Mana Void"
+        ]
+    },
+    {
+        "name": "Axe",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Disabler",
+            "Initiator"
+        ],
+        "skills": [
+            "Berserker's Call",
+            "Battle Hunger",
+            "Counter Helix",
+            "Culling Blade",
+            "Coat of Blood"
+        ]
+    },
+    {
+        "name": "Bane",
+        "main_attribute": "Universal",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Initiator"
+        ],
+        "skills": [
+            "Enfeeble",
+            "Brain Sap",
+            "Nightmare",
+            "Fiend's Grip",
+            "Ichor of Nyctasha"
+        ]
+    },
+    {
+        "name": "Bloodseeker",
+        "main_attribute": "Agility",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Disabler"
+        ],
+        "skills": [
+            "Bloodrage",
+            "Blood Rite",
+            "Thirst",
+            "Sanguivore",
+            "Rupture"
+        ]
+    },
+    {
+        "name": "Crystal Maiden",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 1,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler"
+        ],
+        "skills": [
+            "Crystal Nova",
+            "Frostbite",
+            "Arcane Aura",
+            "Crystal Clone",
+            "Blueheart Floe",
+            "Freezing Field"
+        ]
+    },
+    {
+        "name": "Drow Ranger",
+        "main_attribute": "Agility",
+        "attack_type": "Ranged",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Disabler",
+            "Durable"
+        ],
+        "skills": [
+            "Frost Arrows",
+            "Gust",
+            "Multishot",
+            "Glacier",
+            "Precision Aura",
+            "Marksmanship"
+        ]
+    },
+    {
+        "name": "Earthshaker",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 2,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler"
+        ],
+        "skills": [
+            "Fissure",
+            "Enchant Totem",
+            "Aftershock",
+            "Echo Slam",
+            "Slugger"
+        ]
+    },
+    {
+        "name": "Juggernaut",
+        "main_attribute": "Agility",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Pusher",
+            "Durable"
+        ],
+        "skills": [
+            "Blade Fury",
+            "Healing Ward",
+            "Blade Dance",
+            "Swiftslash",
+            "Duelist",
+            "Omnislash"
+        ]
+    },
+    {
+        "name": "Mirana",
+        "main_attribute": "Agility",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Pusher"
+        ],
+        "skills": [
+            "Starstorm",
+            "Sacred Arrow",
+            "Leap",
+            "Selemene's Faithful",
+            "Moonlight Shadow"
+        ]
+    },
+    {
+        "name": "Shadow Fiend",
+        "main_attribute": "Agility",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Nuker"
+        ],
+        "skills": [
+            "Shadowraze",
+            "Feast of Souls",
+            "Presence of the Dark Lord",
+            "Requiem of Souls",
+            "Necromastery"
+        ]
+    },
+    {
+        "name": "Morphling",
+        "main_attribute": "Agility",
+        "attack_type": "Ranged",
+        "complexity": 3,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Disabler",
+            "Initiator",
+            "Pusher"
+        ],
+        "skills": [
+            "Waveform",
+            "Adaptive Strike",
+            "Attribute Shift (Agility Gain)",
+            "Attribute Shift (Strength Gain)",
+            "Morph",
+            "Accumulation"
+        ]
+    },
+    {
+        "name": "Phantom Lancer",
+        "main_attribute": "Agility",
+        "attack_type": "Melee",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Pusher",
+            "Durable"
+        ],
+        "skills": [
+            "Spirit Lance",
+            "Doppelganger",
+            "Phantom Rush",
+            "Illusory Armaments",
+            "Juxtapose"
+        ]
+    },
+    {
+        "name": "Puck",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Nuker",
+            "Disabler",
+            "Pusher"
+        ],
+        "skills": [
+            "Illusory Orb",
+            "Waning Rift",
+            "Phase Shift",
+            "Puckish",
+            "Dream Coil"
+        ]
+    },
+    {
+        "name": "Pudge",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 2,
+        "roles": [
+            "Nuker",
+            "Disabler",
+            "Initiator"
+        ],
+        "skills": [
+            "Meat Hook",
+            "Rot",
+            "Meat Shield",
+            "Flesh Heap",
+            "Dismember"
+        ]
+    },
+    {
+        "name": "Razor",
+        "main_attribute": "Agility",
+        "attack_type": "Ranged",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Initiator",
+            "Durable"
+        ],
+        "skills": [
+            "Plasma Field",
+            "Static Link",
+            "Storm Surge",
+            "Unstable Current",
+            "Eye of the Storm"
+        ]
+    },
+    {
+        "name": "Sand King",
+        "main_attribute": "Universal",
+        "attack_type": "Melee",
+        "complexity": 2,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Pusher"
+        ],
+        "skills": [
+            "Burrowstrike",
+            "Sand Storm",
+            "Stinger",
+            "Caustic Finale",
+            "Epicenter"
+        ]
+    },
+    {
+        "name": "Storm Spirit",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Disabler",
+            "Pusher"
+        ],
+        "skills": [
+            "Static Remnant",
+            "Electric Vortex",
+            "Overload",
+            "Ball Lightning",
+            "Galvanized"
+        ]
+    },
+    {
+        "name": "Sven",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Disabler",
+            "Initiator"
+        ],
+        "skills": [
+            "Storm Hammer",
+            "Great Cleave",
+            "Warcry",
+            "God's Strength",
+            "Vanquisher"
+        ]
+    },
+    {
+        "name": "Tiny",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Disabler",
+            "Initiator",
+            "Durable"
+        ],
+        "skills": [
+            "Avalanche",
+            "Toss",
+            "Tree Grab",
+            "Tree Volley",
+            "Craggy Exterior",
+            "Grow",
+            "Tree Throw"
+        ]
+    },
+    {
+        "name": "Vengeful Spirit",
+        "main_attribute": "Agility",
+        "attack_type": "Ranged",
+        "complexity": 1,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Pusher"
+        ],
+        "skills": [
+            "Magic Missile",
+            "Wave of Terror",
+            "Vengeance Aura",
+            "Retribution",
+            "Nether Swap"
+        ]
+    },
+    {
+        "name": "Windranger",
+        "main_attribute": "Universal",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Pusher"
+        ],
+        "skills": [
+            "Shackleshot",
+            "Powershot",
+            "Windrun",
+            "Gale Force",
+            "Focus Fire",
+            "Easy Breezy"
+        ]
+    },
+    {
+        "name": "Zeus",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Nuker"
+        ],
+        "skills": [
+            "Arc Lightning",
+            "Lightning Bolt",
+            "Heavenly Jump",
+            "Nimbus",
+            "Lightning Hands",
+            "Thundergod's Wrath",
+            "Static Field"
+        ]
+    },
+    {
+        "name": "Kunkka",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Initiator"
+        ],
+        "skills": [
+            "Torrent",
+            "Tidebringer",
+            "X Marks the Spot",
+            "Admiral's Rum",
+            "Tidal Wave",
+            "Ghostship"
+        ]
+    },
+    {
+        "name": "Lina",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Support",
+            "Nuker",
+            "Disabler"
+        ],
+        "skills": [
+            "Dragon Slave",
+            "Light Strike Array",
+            "Fiery Soul",
+            "Flame Cloak",
+            "Combustion",
+            "Laguna Blade"
+        ]
+    },
+    {
+        "name": "Lich",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 1,
+        "roles": [
+            "Support",
+            "Nuker"
+        ],
+        "skills": [
+            "Frost Blast",
+            "Frost Shield",
+            "Sinister Gaze",
+            "Ice Spire",
+            "Death Charge",
+            "Chain Frost"
+        ]
+    },
+    {
+        "name": "Lion",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 1,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler"
+        ],
+        "skills": [
+            "Earth Spike",
+            "Hex",
+            "Mana Drain",
+            "To Hell and Back",
+            "Finger of Death"
+        ]
+    },
+    {
+        "name": "Shadow Shaman",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 1,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Durable"
+        ],
+        "skills": [
+            "Ether Shock",
+            "Hex",
+            "Shackles",
+            "Fowl Play",
+            "Mass Serpent Ward"
+        ]
+    },
+    {
+        "name": "Slardar",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Disabler",
+            "Initiator",
+            "Pusher"
+        ],
+        "skills": [
+            "Guardian Sprint",
+            "Slithereen Crush",
+            "Bash of the Deep",
+            "Seaborn Sentinel",
+            "Corrosive Haze"
+        ]
+    },
+    {
+        "name": "Tidehunter",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Disabler",
+            "Initiator"
+        ],
+        "skills": [
+            "Gush",
+            "Kraken Shell",
+            "Anchor Smash",
+            "Dead in the Water",
+            "Ravage",
+            "Blubber"
+        ]
+    },
+    {
+        "name": "Witch Doctor",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 1,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler"
+        ],
+        "skills": [
+            "Paralyzing Cask",
+            "Voodoo Restoration",
+            "Maledict",
+            "Voodoo Switcheroo",
+            "Gris-Gris",
+            "Death Ward"
+        ]
+    },
+    {
+        "name": "Riki",
+        "main_attribute": "Agility",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Disabler",
+            "Pusher"
+        ],
+        "skills": [
+            "Smoke Screen",
+            "Blink Strike",
+            "Tricks of the Trade",
+            "Backstab",
+            "Cloak and Dagger"
+        ]
+    },
+    {
+        "name": "Enigma",
+        "main_attribute": "Universal",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Disabler",
+            "Durable"
+        ],
+        "skills": [
+            "Malefice",
+            "Demonic Summoning",
+            "Midnight Pulse",
+            "Gravity Well",
+            "Black Hole"
+        ]
+    },
+    {
+        "name": "Tinker",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Durable"
+        ],
+        "skills": [
+            "Laser",
+            "March of the Machines",
+            "Defense Matrix",
+            "Warp Flare",
+            "Rearm",
+            "Eureka!"
+        ]
+    },
+    {
+        "name": "Sniper",
+        "main_attribute": "Agility",
+        "attack_type": "Ranged",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Nuker"
+        ],
+        "skills": [
+            "Shrapnel",
+            "Headshot",
+            "Take Aim",
+            "Concussive Grenade",
+            "Keen Scope",
+            "Assassinate"
+        ]
+    },
+    {
+        "name": "Necrophos",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Disabler",
+            "Initiator"
+        ],
+        "skills": [
+            "Death Pulse",
+            "Ghost Shroud",
+            "Heartstopper Aura",
+            "Death Seeker",
+            "Sadist",
+            "Reaper's Scythe"
+        ]
+    },
+    {
+        "name": "Warlock",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 1,
+        "roles": [
+            "Support",
+            "Disabler"
+        ],
+        "skills": [
+            "Fatal Bonds",
+            "Shadow Word",
+            "Upheaval",
+            "Eldritch Summoning",
+            "Chaotic Offering"
+        ]
+    },
+    {
+        "name": "Beastmaster",
+        "main_attribute": "Universal",
+        "attack_type": "Melee",
+        "complexity": 2,
+        "roles": [
+            "Nuker",
+            "Disabler",
+            "Initiator"
+        ],
+        "skills": [
+            "Wild Axes",
+            "Call of the Wild Boar",
+            "Call of the Wild Hawk",
+            "Inner Beast",
+            "Drums of Slom",
+            "Primal Roar",
+            "Rugged"
+        ]
+    },
+    {
+        "name": "Queen of Pain",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Pusher"
+        ],
+        "skills": [
+            "Shadow Strike",
+            "Blink",
+            "Scream Of Pain",
+            "Succubus",
+            "Sonic Wave"
+        ]
+    },
+    {
+        "name": "Venomancer",
+        "main_attribute": "Universal",
+        "attack_type": "Ranged",
+        "complexity": 1,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Durable"
+        ],
+        "skills": [
+            "Venomous Gale",
+            "Poison Sting",
+            "Plague Ward",
+            "Septic Shock",
+            "Noxious Plague"
+        ]
+    },
+    {
+        "name": "Faceless Void",
+        "main_attribute": "Agility",
+        "attack_type": "Melee",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Disabler",
+            "Initiator",
+            "Pusher"
+        ],
+        "skills": [
+            "Time Walk",
+            "Time Dilation",
+            "Time Lock",
+            "Reverse Time Walk",
+            "Distortion Field"
+        ]
+    },
+    {
+        "name": "Wraith King",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Support",
+            "Disabler",
+            "Initiator"
+        ],
+        "skills": [
+            "Wraithfire Blast",
+            "Mortal Strike",
+            "Vampiric Spirit",
+            "Reincarnation"
+        ]
+    },
+    {
+        "name": "Death Prophet",
+        "main_attribute": "Universal",
+        "attack_type": "Ranged",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Disabler",
+            "Durable"
+        ],
+        "skills": [
+            "Crypt Swarm",
+            "Silence",
+            "Spirit Siphon",
+            "Witchcraft",
+            "Exorcism"
+        ]
+    },
+    {
+        "name": "Phantom Assassin",
+        "main_attribute": "Agility",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Pusher"
+        ],
+        "skills": [
+            "Stifling Dagger",
+            "Phantom Strike",
+            "Blur",
+            "Fan of Knives",
+            "Immaterial",
+            "Coup de Grace"
+        ]
+    },
+    {
+        "name": "Pugna",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Nuker",
+            "Durable"
+        ],
+        "skills": [
+            "Nether Blast",
+            "Decrepify",
+            "Nether Ward",
+            "Oblivion Savant",
+            "Life Drain"
+        ]
+    },
+    {
+        "name": "Templar Assassin",
+        "main_attribute": "Agility",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Pusher"
+        ],
+        "skills": [
+            "Refraction",
+            "Meld",
+            "Psi Blades",
+            "Psionic Projection",
+            "Psionic Trap",
+            "Third Eye"
+        ]
+    },
+    {
+        "name": "Viper",
+        "main_attribute": "Agility",
+        "attack_type": "Ranged",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Disabler",
+            "Initiator"
+        ],
+        "skills": [
+            "Poison Attack",
+            "Nethertoxin",
+            "Corrosive Skin",
+            "Nosedive",
+            "Predator",
+            "Viper Strike"
+        ]
+    },
+    {
+        "name": "Luna",
+        "main_attribute": "Agility",
+        "attack_type": "Ranged",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Durable"
+        ],
+        "skills": [
+            "Lucent Beam",
+            "Lunar Orbit",
+            "Moon Glaives",
+            "Lunar Blessing",
+            "Eclipse"
+        ]
+    },
+    {
+        "name": "Dragon Knight",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Disabler",
+            "Initiator",
+            "Durable"
+        ],
+        "skills": [
+            "Breathe Fire",
+            "Dragon Tail",
+            "Wyrm's Wrath",
+            "Fireball",
+            "Elder Dragon Form",
+            "Dragon Blood"
+        ]
+    },
+    {
+        "name": "Dazzle",
+        "main_attribute": "Universal",
+        "attack_type": "Ranged",
+        "complexity": 1,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler"
+        ],
+        "skills": [
+            "Poison Touch",
+            "Shallow Grave",
+            "Shadow Wave",
+            "Weave",
+            "Nothl Projection"
+        ]
+    },
+    {
+        "name": "Clockwerk",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 2,
+        "roles": [
+            "Nuker",
+            "Disabler",
+            "Initiator"
+        ],
+        "skills": [
+            "Battery Assault",
+            "Power Cogs",
+            "Rocket Flare",
+            "Overclocking",
+            "Jetpack",
+            "Hookshot",
+            "Armor Power"
+        ]
+    },
+    {
+        "name": "Leshrac",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Durable"
+        ],
+        "skills": [
+            "Split Earth",
+            "Diabolic Edict",
+            "Lightning Storm",
+            "Nihilism",
+            "Defilement",
+            "Pulse Nova"
+        ]
+    },
+    {
+        "name": "Nature's Prophet",
+        "main_attribute": "Universal",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Pusher",
+            "Durable"
+        ],
+        "skills": [
+            "Sprout",
+            "Teleportation",
+            "Nature's Call",
+            "Curse of the Oldgrowth",
+            "Spirit of the Forest",
+            "Wrath of Nature"
+        ]
+    },
+    {
+        "name": "Lifestealer",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Disabler",
+            "Initiator",
+            "Pusher"
+        ],
+        "skills": [
+            "Rage",
+            "Open Wounds",
+            "Ghoul Frenzy",
+            "Feast",
+            "Infest"
+        ]
+    },
+    {
+        "name": "Dark Seer",
+        "main_attribute": "Intelligence",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Disabler",
+            "Pusher"
+        ],
+        "skills": [
+            "Vacuum",
+            "Ion Shell",
+            "Surge",
+            "Normal Punch",
+            "Aggrandize",
+            "Wall of Replica"
+        ]
+    },
+    {
+        "name": "Clinkz",
+        "main_attribute": "Agility",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Pusher",
+            "Durable"
+        ],
+        "skills": [
+            "Strafe",
+            "Tar Bomb",
+            "Death Pact",
+            "Burning Barrage",
+            "Burning Army",
+            "Skeleton Walk",
+            "Bone and Arrow"
+        ]
+    },
+    {
+        "name": "Omniknight",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Initiator"
+        ],
+        "skills": [
+            "Purification",
+            "Repel",
+            "Hammer of Purity",
+            "Degen Aura",
+            "Guardian Angel"
+        ]
+    },
+    {
+        "name": "Enchantress",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Support",
+            "Disabler",
+            "Initiator",
+            "Durable"
+        ],
+        "skills": [
+            "Impetus",
+            "Enchant",
+            "Nature's Attendants",
+            "Sproink",
+            "Little Friends",
+            "Untouchable",
+            "Rabble-Rouser"
+        ]
+    },
+    {
+        "name": "Huskar",
+        "main_attribute": "Strength",
+        "attack_type": "Ranged",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Initiator"
+        ],
+        "skills": [
+            "Inner Fire",
+            "Burning Spear",
+            "Berserker's Blood",
+            "Blood Magic",
+            "Life Break"
+        ]
+    },
+    {
+        "name": "Night Stalker",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Disabler",
+            "Initiator"
+        ],
+        "skills": [
+            "Void",
+            "Crippling Fear",
+            "Hunter in the Night",
+            "Dark Ascension",
+            "Heart of Darkness"
+        ]
+    },
+    {
+        "name": "Broodmother",
+        "main_attribute": "Agility",
+        "attack_type": "Melee",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Pusher",
+            "Durable"
+        ],
+        "skills": [
+            "Insatiable Hunger",
+            "Spin Web",
+            "Incapacitating Bite",
+            "Spinner's Snare",
+            "Spider's Milk",
+            "Spawn Spiderlings"
+        ]
+    },
+    {
+        "name": "Bounty Hunter",
+        "main_attribute": "Agility",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Nuker",
+            "Pusher"
+        ],
+        "skills": [
+            "Shuriken Toss",
+            "Jinada",
+            "Shadow Walk",
+            "Friendly Shadow",
+            "Big Game Hunter",
+            "Track"
+        ]
+    },
+    {
+        "name": "Weaver",
+        "main_attribute": "Agility",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Pusher"
+        ],
+        "skills": [
+            "The Swarm",
+            "Shukuchi",
+            "Geminate Attack",
+            "Time Lapse",
+            "Rewoven"
+        ]
+    },
+    {
+        "name": "Jakiro",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 1,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Durable"
+        ],
+        "skills": [
+            "Dual Breath",
+            "Ice Path",
+            "Liquid Fire",
+            "Liquid Frost",
+            "Double Trouble",
+            "Macropyre"
+        ]
+    },
+    {
+        "name": "Batrider",
+        "main_attribute": "Universal",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Disabler",
+            "Pusher"
+        ],
+        "skills": [
+            "Sticky Napalm",
+            "Flamebreak",
+            "Firefly",
+            "Smoldering Resin",
+            "Flaming Lasso"
+        ]
+    },
+    {
+        "name": "Chen",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 3,
+        "roles": [
+            "Support",
+            "Durable"
+        ],
+        "skills": [
+            "Penitence",
+            "Holy Persuasion",
+            "Divine Favor",
+            "Summon Convert",
+            "Hand of God"
+        ]
+    },
+    {
+        "name": "Spectre",
+        "main_attribute": "Universal",
+        "attack_type": "Melee",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Initiator",
+            "Pusher"
+        ],
+        "skills": [
+            "Spectral Dagger",
+            "Desolate",
+            "Dispersion",
+            "Haunt",
+            "Shadow Step",
+            "Spectral"
+        ]
+    },
+    {
+        "name": "Doom",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Disabler",
+            "Initiator"
+        ],
+        "skills": [
+            "Devour",
+            "Scorched Earth",
+            "Infernal Blade",
+            "Doom",
+            "Lvl ? Pain"
+        ]
+    },
+    {
+        "name": "Ancient Apparition",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler"
+        ],
+        "skills": [
+            "Cold Feet",
+            "Ice Vortex",
+            "Chilling Touch",
+            "Death Rime",
+            "Ice Blast"
+        ]
+    },
+    {
+        "name": "Ursa",
+        "main_attribute": "Agility",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Disabler",
+            "Initiator"
+        ],
+        "skills": [
+            "Earthshock",
+            "Overpower",
+            "Fury Swipes",
+            "Maul",
+            "Enrage"
+        ]
+    },
+    {
+        "name": "Spirit Breaker",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Disabler",
+            "Initiator",
+            "Pusher"
+        ],
+        "skills": [
+            "Charge of Darkness",
+            "Bulldoze",
+            "Greater Bash",
+            "Planar Pocket",
+            "Herd Mentality",
+            "Nether Strike"
+        ]
+    },
+    {
+        "name": "Gyrocopter",
+        "main_attribute": "Agility",
+        "attack_type": "Ranged",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Disabler"
+        ],
+        "skills": [
+            "Rocket Barrage",
+            "Homing Missile",
+            "Flak Cannon",
+            "Chop Shop",
+            "Call Down"
+        ]
+    },
+    {
+        "name": "Alchemist",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Initiator"
+        ],
+        "skills": [
+            "Acid Spray",
+            "Unstable Concoction",
+            "Corrosive Weaponry",
+            "Berserk Potion",
+            "Greevil's Greed",
+            "Chemical Rage"
+        ]
+    },
+    {
+        "name": "Invoker",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 3,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Disabler",
+            "Pusher",
+            "Durable"
+        ],
+        "skills": [
+            "Quas",
+            "Wex",
+            "Exort",
+            "Invoke",
+            "Cold Snap",
+            "Ghost Walk",
+            "Tornado",
+            "E.M.P.",
+            "Alacrity",
+            "Chaos Meteor",
+            "Sun Strike",
+            "Forge Spirit",
+            "Ice Wall",
+            "Deafening Blast"
+        ]
+    },
+    {
+        "name": "Silencer",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Support",
+            "Nuker",
+            "Disabler"
+        ],
+        "skills": [
+            "Arcane Curse",
+            "Glaives of Wisdom",
+            "Last Word",
+            "Brain Drain",
+            "Global Silence"
+        ]
+    },
+    {
+        "name": "Outworld Destroyer",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Disabler"
+        ],
+        "skills": [
+            "Arcane Orb",
+            "Astral Imprisonment",
+            "Essence Flux",
+            "Ominous Discernment",
+            "Sanity's Eclipse"
+        ]
+    },
+    {
+        "name": "Lycan",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Initiator",
+            "Pusher",
+            "Durable"
+        ],
+        "skills": [
+            "Summon Wolves",
+            "Howl",
+            "Feral Impulse",
+            "Wolf Bite",
+            "Apex Predator",
+            "Shapeshift"
+        ]
+    },
+    {
+        "name": "Brewmaster",
+        "main_attribute": "Universal",
+        "attack_type": "Melee",
+        "complexity": 3,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Disabler",
+            "Initiator"
+        ],
+        "skills": [
+            "Thunder Clap",
+            "Cinder Brew",
+            "Drunken Brawler",
+            "Primal Companion",
+            "Primal Split",
+            "Belligerent"
+        ]
+    },
+    {
+        "name": "Shadow Demon",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler"
+        ],
+        "skills": [
+            "Disruption",
+            "Disseminate",
+            "Shadow Poison",
+            "Demonic Cleanse",
+            "Demonic Purge",
+            "Menace"
+        ]
+    },
+    {
+        "name": "Lone Druid",
+        "main_attribute": "Agility",
+        "attack_type": "Ranged",
+        "complexity": 3,
+        "roles": [
+            "Carry",
+            "Initiator",
+            "Durable"
+        ],
+        "skills": [
+            "Summon Spirit Bear",
+            "Spirit Link",
+            "Savage Roar",
+            "True Form",
+            "Gift Bearer"
+        ]
+    },
+    {
+        "name": "Chaos Knight",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Disabler",
+            "Initiator",
+            "Durable"
+        ],
+        "skills": [
+            "Chaos Bolt",
+            "Reality Rift",
+            "Chaos Strike",
+            "Reins of Chaos",
+            "Phantasm"
+        ]
+    },
+    {
+        "name": "Meepo",
+        "main_attribute": "Agility",
+        "attack_type": "Melee",
+        "complexity": 3,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Disabler",
+            "Pusher",
+            "Durable"
+        ],
+        "skills": [
+            "Earthbind",
+            "Poof",
+            "Ransack",
+            "Dig",
+            "MegaMeepo",
+            "Divided We Stand",
+            "MegaMeepo Fling",
+            "Sticky Fingers"
+        ]
+    },
+    {
+        "name": "Treant Protector",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 2,
+        "roles": [
+            "Support",
+            "Disabler",
+            "Initiator",
+            "Pusher"
+        ],
+        "skills": [
+            "Nature's Grasp",
+            "Leech Seed",
+            "Living Armor",
+            "Eyes In The Forest",
+            "Nature's Guise",
+            "Overgrowth"
+        ]
+    },
+    {
+        "name": "Ogre Magi",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Initiator"
+        ],
+        "skills": [
+            "Fireblast",
+            "Ignite",
+            "Bloodlust",
+            "Unrefined Fireblast",
+            "Fire Shield",
+            "Dumb Luck",
+            "Multicast"
+        ]
+    },
+    {
+        "name": "Undying",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Initiator"
+        ],
+        "skills": [
+            "Decay",
+            "Soul Rip",
+            "Tombstone",
+            "Ceaseless Dirge",
+            "Flesh Golem"
+        ]
+    },
+    {
+        "name": "Rubick",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 3,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler"
+        ],
+        "skills": [
+            "Telekinesis",
+            "Fade Bolt",
+            "Arcane Supremacy",
+            "Spell Steal",
+            "Might and Magus"
+        ]
+    },
+    {
+        "name": "Disruptor",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler"
+        ],
+        "skills": [
+            "Thunder Strike",
+            "Glimpse",
+            "Kinetic Field",
+            "Electromagnetic Repulsion",
+            "Static Storm"
+        ]
+    },
+    {
+        "name": "Nyx Assassin",
+        "main_attribute": "Universal",
+        "attack_type": "Melee",
+        "complexity": 2,
+        "roles": [
+            "Nuker",
+            "Disabler",
+            "Pusher"
+        ],
+        "skills": [
+            "Impale",
+            "Mind Flare",
+            "Spiked Carapace",
+            "Burrow",
+            "Nyxth Sense",
+            "Vendetta"
+        ]
+    },
+    {
+        "name": "Naga Siren",
+        "main_attribute": "Agility",
+        "attack_type": "Melee",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Support",
+            "Disabler",
+            "Pusher",
+            "Durable"
+        ],
+        "skills": [
+            "Mirror Image",
+            "Ensnare",
+            "Eelskin",
+            "Song of the Siren"
+        ]
+    },
+    {
+        "name": "Keeper of the Light",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler"
+        ],
+        "skills": [
+            "Illuminate",
+            "Blinding Light",
+            "Chakra Magic",
+            "Will-O-Wisp",
+            "Spirit Form",
+            "Special Reserve"
+        ]
+    },
+    {
+        "name": "Io",
+        "main_attribute": "Universal",
+        "attack_type": "Ranged",
+        "complexity": 3,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Pusher"
+        ],
+        "skills": [
+            "Tether",
+            "Spirits",
+            "Overcharge",
+            "Spirits In",
+            "Spirits Out",
+            "Relocate",
+            "Wellspring"
+        ]
+    },
+    {
+        "name": "Visage",
+        "main_attribute": "Universal",
+        "attack_type": "Ranged",
+        "complexity": 3,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Initiator",
+            "Durable"
+        ],
+        "skills": [
+            "Grave Chill",
+            "Soul Assumption",
+            "Gravekeeper's Cloak",
+            "Silent as the Grave",
+            "Summon Familiars",
+            "Lurker"
+        ]
+    },
+    {
+        "name": "Slark",
+        "main_attribute": "Agility",
+        "attack_type": "Melee",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Disabler",
+            "Pusher"
+        ],
+        "skills": [
+            "Dark Pact",
+            "Pounce",
+            "Essence Shift",
+            "Depth Shroud",
+            "Barracuda",
+            "Shadow Dance"
+        ]
+    },
+    {
+        "name": "Medusa",
+        "main_attribute": "Agility",
+        "attack_type": "Ranged",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Disabler",
+            "Initiator"
+        ],
+        "skills": [
+            "Split Shot",
+            "Mystic Snake",
+            "Gorgon's Grasp",
+            "Cold Blooded",
+            "Mana Shield",
+            "Stone Gaze"
+        ]
+    },
+    {
+        "name": "Troll Warlord",
+        "main_attribute": "Agility",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Disabler",
+            "Initiator",
+            "Durable"
+        ],
+        "skills": [
+            "Battle Stance",
+            "Whirling Axes (Ranged)",
+            "Whirling Axes (Melee)",
+            "Fervor",
+            "Berserker's Rage",
+            "Battle Trance"
+        ]
+    },
+    {
+        "name": "Centaur Warrunner",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Nuker",
+            "Disabler",
+            "Initiator",
+            "Pusher"
+        ],
+        "skills": [
+            "Hoof Stomp",
+            "Double Edge",
+            "Retaliate",
+            "Work Horse",
+            "Stampede",
+            "Rawhide"
+        ]
+    },
+    {
+        "name": "Magnus",
+        "main_attribute": "Universal",
+        "attack_type": "Melee",
+        "complexity": 2,
+        "roles": [
+            "Nuker",
+            "Disabler",
+            "Pusher"
+        ],
+        "skills": [
+            "Shockwave",
+            "Empower",
+            "Skewer",
+            "Horn Toss",
+            "Solid Core",
+            "Reverse Polarity"
+        ]
+    },
+    {
+        "name": "Timbersaw",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 2,
+        "roles": [
+            "Nuker",
+            "Initiator",
+            "Pusher"
+        ],
+        "skills": [
+            "Whirling Death",
+            "Timber Chain",
+            "Reactive Armor",
+            "Flamethrower",
+            "Chakram",
+            "Exposure Therapy"
+        ]
+    },
+    {
+        "name": "Bristleback",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Initiator"
+        ],
+        "skills": [
+            "Viscous Nasal Goo",
+            "Quill Spray",
+            "Bristleback",
+            "Hairball",
+            "Warpath",
+            "Prickly"
+        ]
+    },
+    {
+        "name": "Tusk",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Nuker",
+            "Disabler"
+        ],
+        "skills": [
+            "Ice Shards",
+            "Snowball",
+            "Walrus Kick",
+            "Bitter Chill",
+            "Walrus PUNCH!"
+        ]
+    },
+    {
+        "name": "Skywrath Mage",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 1,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler"
+        ],
+        "skills": [
+            "Arcane Bolt",
+            "Concussive Shot",
+            "Ancient Seal",
+            "Ruin and Restoration",
+            "Mystic Flare"
+        ]
+    },
+    {
+        "name": "Abaddon",
+        "main_attribute": "Universal",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Support",
+            "Initiator"
+        ],
+        "skills": [
+            "Mist Coil",
+            "Aphotic Shield",
+            "Curse of Avernus",
+            "Withering Mist",
+            "Borrowed Time"
+        ]
+    },
+    {
+        "name": "Elder Titan",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 2,
+        "roles": [
+            "Nuker",
+            "Disabler",
+            "Initiator"
+        ],
+        "skills": [
+            "Echo Stomp",
+            "Astral Spirit",
+            "Natural Order",
+            "Earth Splitter",
+            "Tip the Scales"
+        ]
+    },
+    {
+        "name": "Legion Commander",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Disabler",
+            "Initiator"
+        ],
+        "skills": [
+            "Overwhelming Odds",
+            "Press The Attack",
+            "Moment of Courage",
+            "Outfight Them!",
+            "Duel"
+        ]
+    },
+    {
+        "name": "Ember Spirit",
+        "main_attribute": "Agility",
+        "attack_type": "Melee",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Disabler",
+            "Pusher"
+        ],
+        "skills": [
+            "Searing Chains",
+            "Sleight of Fist",
+            "Flame Guard",
+            "Activate Fire Remnant",
+            "Immolation",
+            "Fire Remnant"
+        ]
+    },
+    {
+        "name": "Earth Spirit",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 3,
+        "roles": [
+            "Nuker",
+            "Disabler",
+            "Initiator",
+            "Pusher"
+        ],
+        "skills": [
+            "Boulder Smash",
+            "Rolling Boulder",
+            "Geomagnetic Grip",
+            "Stone Remnant",
+            "Enchant Remnant",
+            "Magnetize"
+        ]
+    },
+    {
+        "name": "Terrorblade",
+        "main_attribute": "Agility",
+        "attack_type": "Melee",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Durable"
+        ],
+        "skills": [
+            "Reflection",
+            "Conjure Image",
+            "Metamorphosis",
+            "Demon Zeal",
+            "Terror Wave",
+            "Sunder",
+            "Dark Unity"
+        ]
+    },
+    {
+        "name": "Phoenix",
+        "main_attribute": "Strength",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Pusher"
+        ],
+        "skills": [
+            "Icarus Dive",
+            "Fire Spirits",
+            "Sun Ray",
+            "Blinding Sun",
+            "Supernova"
+        ]
+    },
+    {
+        "name": "Oracle",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 3,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Pusher"
+        ],
+        "skills": [
+            "Fortune's End",
+            "Fate's Edict",
+            "Purifying Flames",
+            "Rain of Destiny",
+            "Prognosticate",
+            "False Promise"
+        ]
+    },
+    {
+        "name": "Techies",
+        "main_attribute": "Universal",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Nuker",
+            "Disabler"
+        ],
+        "skills": [
+            "Sticky Bomb",
+            "Reactive Tazer",
+            "Blast Off!",
+            "Minefield Sign",
+            "Proximity Mines"
+        ]
+    },
+    {
+        "name": "Winter Wyvern",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler"
+        ],
+        "skills": [
+            "Arctic Burn",
+            "Splinter Blast",
+            "Cold Embrace",
+            "Eldwurm Scholar",
+            "Winter's Curse"
+        ]
+    },
+    {
+        "name": "Arc Warden",
+        "main_attribute": "Universal",
+        "attack_type": "Ranged",
+        "complexity": 3,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Pusher"
+        ],
+        "skills": [
+            "Flux",
+            "Magnetic Field",
+            "Spark Wraith",
+            "Runic Infusion",
+            "Tempest Double"
+        ]
+    },
+    {
+        "name": "Underlord",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 2,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Initiator",
+            "Pusher"
+        ],
+        "skills": [
+            "Firestorm",
+            "Pit of Malice",
+            "Atrophy Aura",
+            "Invading Force",
+            "Fiend's Gate"
+        ]
+    },
+    {
+        "name": "Monkey King",
+        "main_attribute": "Agility",
+        "attack_type": "Melee",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Disabler",
+            "Pusher"
+        ],
+        "skills": [
+            "Boundless Strike",
+            "Tree Dance",
+            "Jingu Mastery",
+            "Mischief",
+            "Wukong's Command"
+        ]
+    },
+    {
+        "name": "Pangolier",
+        "main_attribute": "Universal",
+        "attack_type": "Melee",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Disabler",
+            "Initiator",
+            "Pusher"
+        ],
+        "skills": [
+            "Swashbuckle",
+            "Shield Crash",
+            "Lucky Shot",
+            "Roll Up",
+            "Rolling Thunder",
+            "Fortune Favors the Bold"
+        ]
+    },
+    {
+        "name": "Dark Willow",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Pusher"
+        ],
+        "skills": [
+            "Bramble Maze",
+            "Shadow Realm",
+            "Cursed Crown",
+            "Bedlam",
+            "Pixie Dust",
+            "Terrorize"
+        ]
+    },
+    {
+        "name": "Grimstroke",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Pusher"
+        ],
+        "skills": [
+            "Stroke of Fate",
+            "Phantom's Embrace",
+            "Ink Swell",
+            "Dark Portrait",
+            "Soulbind",
+            "Ink Trail"
+        ]
+    },
+    {
+        "name": "Mars",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Disabler",
+            "Initiator"
+        ],
+        "skills": [
+            "Spear of Mars",
+            "God's Rebuke",
+            "Bulwark",
+            "Dauntless",
+            "Arena Of Blood"
+        ]
+    },
+    {
+        "name": "Void Spirit",
+        "main_attribute": "Universal",
+        "attack_type": "Melee",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Disabler",
+            "Pusher"
+        ],
+        "skills": [
+            "Aether Remnant",
+            "Dissimilate",
+            "Resonant Pulse",
+            "Intrinsic Edge",
+            "Astral Step"
+        ]
+    },
+    {
+        "name": "Snapfire",
+        "main_attribute": "Universal",
+        "attack_type": "Ranged",
+        "complexity": 1,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Pusher"
+        ],
+        "skills": [
+            "Scatterblast",
+            "Firesnap Cookie",
+            "Lil' Shredder",
+            "Gobble Up",
+            "Spit Out",
+            "Mortimer Kisses",
+            "Buckshot"
+        ]
+    },
+    {
+        "name": "Hoodwink",
+        "main_attribute": "Agility",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Pusher"
+        ],
+        "skills": [
+            "Acorn Shot",
+            "Bushwhack",
+            "Scurry",
+            "Decoy",
+            "Hunter's Boomerang",
+            "Mistwoods Wayfarer",
+            "Sharpshooter"
+        ]
+    },
+    {
+        "name": "Dawnbreaker",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Initiator"
+        ],
+        "skills": [
+            "Starbreaker",
+            "Celestial Hammer",
+            "Luminosity",
+            "Break of Dawn",
+            "Solar Guardian"
+        ]
+    },
+    {
+        "name": "Marci",
+        "main_attribute": "Universal",
+        "attack_type": "Melee",
+        "complexity": 2,
+        "roles": [
+            "Carry",
+            "Support",
+            "Disabler",
+            "Pusher"
+        ],
+        "skills": [
+            "Dispose",
+            "Rebound",
+            "Bodyguard",
+            "Special Delivery",
+            "Unleash"
+        ]
+    },
+    {
+        "name": "Primal Beast",
+        "main_attribute": "Strength",
+        "attack_type": "Melee",
+        "complexity": 1,
+        "roles": [
+            "Disabler",
+            "Initiator"
+        ],
+        "skills": [
+            "Onslaught",
+            "Trample",
+            "Uproar",
+            "Rock Throw",
+            "Pulverize",
+            "Colossal"
+        ]
+    },
+    {
+        "name": "Muerta",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 1,
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Disabler"
+        ],
+        "skills": [
+            "Dead Shot",
+            "The Calling",
+            "Gunslinger",
+            "Pierce the Veil",
+            "Supernatural"
+        ]
+    },
+    {
+        "name": "Ringmaster",
+        "main_attribute": "Intelligence",
+        "attack_type": "Ranged",
+        "complexity": 2,
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Pusher"
+        ],
+        "skills": [
+            "Tame the Beasts",
+            "Escape Act",
+            "Impalement Arts",
+            "Spotlight",
+            "Wheel of Wonder",
+            "Dark Carnival Barker"
+        ]
+    },
+    {
+        "name": "Kez",
+        "main_attribute": "Agility",
+        "attack_type": "Melee",
+        "complexity": 3,
+        "roles": [
+            "Carry",
+            "Disabler",
+            "Pusher"
+        ],
+        "skills": [
+            "Echo Slash",
+            "Grappling Claw",
+            "Kazurai Katana",
+            "Switch Discipline",
+            "Raptor Dance",
+            "Falcon Rush",
+            "Talon Toss",
+            "Shodo Sai",
+            "Raven's Veil"
+        ]
+    }
+]

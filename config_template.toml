@@ -1,0 +1,5 @@
+[neo4j]
+database_uri = "..."  # Open Inspect menu from an instance, then copy the connection URI.
+database_name = "..."  # Usually neo4j. Access your instance, then check what database is used.
+username = "..."
+password = "..."
