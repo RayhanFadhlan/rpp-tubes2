@@ -15,6 +15,8 @@ Node properties:
   - name: STRING Example: "Blink Dagger"
   - cost: INTEGER
   - lore: STRING
+  - notes: STRING
+  - attributes: STRING
 - **Facet**
   - name: STRING Example: "High Tides"
   - description: STRING
@@ -39,4 +41,5 @@ Relationships:
 (:Ability)-[:DEALS_DAMAGE_TYPE]->(:DamageType)
 (:Ability)-[:HAS_BEHAVIOR]->(:Behavior)
 (:Item)-[:HAS_BEHAVIOR]->(:Behavior)
+(:Item)-[:HAS_ABILITY]->(:Ability)
 (:Item)-[:REQUIRES_COMPONENT]->(:Item)

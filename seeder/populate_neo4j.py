@@ -125,13 +125,17 @@ def create_item(tx, key, data):
     MERGE (i:Item {name: $name})
     SET i.key = $key,
         i.cost = $cost,
-        i.lore = $lore
+        i.lore = $lore,
+        i.notes = $notes,
+        i.attributes = $attributes_json
     """
     tx.run(query,
            name=readable_name,
            key=key,
            cost=data.get('cost'),
-           lore=data.get('lore')
+           lore=data.get('lore'),
+           notes=data.get('notes'),
+           attributes_json=json.dumps(data.get('attrib', []))
     )
 
 def create_hero(tx, data):
@@ -232,6 +236,27 @@ def link_item_components(tx, item_key, item_data, items_db):
         """, p_name=parent_name, c_name=comp_name)
 
 
+def link_item_abilities(tx, item_name, item_abilities):
+    if not item_abilities: return
+
+    for ability in item_abilities:
+        ability_title = ability.get('title')
+        if not ability_title: continue
+
+        # Create the ability node with description
+        tx.run("""
+            MERGE (a:Ability {name: $name})
+            SET a.description = $desc, a.type = $type
+        """, name=ability_title, desc=ability.get('description'), type=ability.get('type'))
+
+        # Link it to the item
+        tx.run("""
+            MATCH (i:Item {name: $item_name})
+            MATCH (a:Ability {name: $ability_name})
+            MERGE (i)-[:HAS_ABILITY]->(a)
+        """, item_name=item_name, ability_name=ability_title)
+
+
 def main():
     print("Step 1: Loading JSON files...")
     files = ['heroes.json', 'abilities.json', 'items.json', 'hero_abilities.json']
@@ -277,9 +302,13 @@ def main():
             session.execute_write(create_item, key, data)
 
             readable = data.get('dname')
-            if readable and 'behavior' in data:
+            if readable:
                 # Link Behavior
-                session.execute_write(create_behavior_nodes, "Item", readable, data['behavior'])
+                if 'behavior' in data:
+                    session.execute_write(create_behavior_nodes, "Item", readable, data['behavior'])
+                # Link Abilities
+                if 'abilities' in data:
+                    session.execute_write(link_item_abilities, readable, data['abilities'])
 
         print("  > Linking Item Recipes...")
         for key, data in items.items():
