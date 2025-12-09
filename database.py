@@ -19,9 +19,18 @@ class GraphDatabaseDriver:
 
     def execute_query(self, query: str):
         database_name = self._config.get_neo4j_database_name()
+        queries = [q.strip() for q in query.split(";") if q.strip()]
+        results = []
         with self._driver.session(database=database_name) as session:
-            self._last_result_details = session.run(query)
-            return self._last_result_details.data()
+            result = None
+            for q in queries:
+                result = session.run(q)
+                results.extend(result.data())
+        
+        if result:
+            self._last_result_details = result
+            
+        return results
 
     def get_last_result_details(self):
         return self._last_result_details.to_eager_result()
