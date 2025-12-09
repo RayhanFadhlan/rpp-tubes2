@@ -243,16 +243,16 @@ def link_item_abilities(tx, item_name, item_abilities):
         ability_title = ability.get('title')
         if not ability_title: continue
 
-        # Create the ability node with description
+        # Create the item ability node with description
         tx.run("""
-            MERGE (a:Ability {name: $name})
+            MERGE (a:ItemAbility {name: $name})
             SET a.description = $desc, a.type = $type
         """, name=ability_title, desc=ability.get('description'), type=ability.get('type'))
 
         # Link it to the item
         tx.run("""
             MATCH (i:Item {name: $item_name})
-            MATCH (a:Ability {name: $ability_name})
+            MATCH (a:ItemAbility {name: $ability_name})
             MERGE (i)-[:HAS_ABILITY]->(a)
         """, item_name=item_name, ability_name=ability_title)
 

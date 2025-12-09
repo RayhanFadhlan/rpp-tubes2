@@ -11,6 +11,10 @@ Node properties:
   - description: STRING
   - manaCost: INTEGER
   - cooldown: FLOAT
+- **ItemAbility**
+  - name: STRING Example: "active", "passive"
+  - description: STRING
+  - type: STRING
 - **Item**
   - name: STRING Example: "Blink Dagger"
   - cost: INTEGER
@@ -41,5 +45,5 @@ Relationships:
 (:Ability)-[:DEALS_DAMAGE_TYPE]->(:DamageType)
 (:Ability)-[:HAS_BEHAVIOR]->(:Behavior)
 (:Item)-[:HAS_BEHAVIOR]->(:Behavior)
-(:Item)-[:HAS_ABILITY]->(:Ability)
+(:Item)-[:HAS_ABILITY]->(:ItemAbility)
 (:Item)-[:REQUIRES_COMPONENT]->(:Item)
